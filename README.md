@@ -1,2 +1,1 @@
-# Hack-the-Remote
-Elastic Spaces // Fall 2020
+# Hack the Remote
