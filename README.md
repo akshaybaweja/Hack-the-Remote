@@ -44,11 +44,6 @@ This should start your bot and display your bot name in terminal.
 
 Let's begin the meme chat 😎🎉🎉
 
-## APIs Used
-* **Telegram Bot -** aiogram
-* **Emotion Analysis -** ParallelDots
-* **Meme Generator -** imgFlip
-
 # Contributors
 * [Akshay Baweja](https://akshaybaweja.com) - Parsons School of Design
 * [Omar Hammad](https://github.com/hammadojh) - UC Boulder
