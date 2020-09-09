@@ -25,7 +25,7 @@ Follow more instructions [here](https://core.telegram.org/bots#6-botfather)
 * [**imgFlip**](https://imgflip.com) - Signup on [imgFlip](https://imgflip.com/signup) and remeber your username and password :)
 
 
-### Setting credentials in your local environment
+## Setting credentials in your local environment
 
 ~~~ python
 # Run the following python commands
@@ -35,7 +35,7 @@ os.environ['imgflip_username'] = '<YOUR-IMGFLIP-USERNAME>'
 os.environ['imgflip_password'] = '<YOUR-IMGFLIP-PASSWORD>'
 ~~~
 
-### Running the script
+## Running the script
 ~~~
 python3 hackTheRemote.py
 ~~~
@@ -44,7 +44,7 @@ This should start your bot and display your bot name in terminal.
 
 Let's begin the meme chat 😎🎉🎉
 
-### APIs Used
+## APIs Used
 * **Telegram Bot -** aiogram
 * **Emotion Analysis -** ParallelDots
 * **Meme Generator -** imgFlip
