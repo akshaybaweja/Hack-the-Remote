@@ -34,10 +34,10 @@ async def echo(message: types.Message):
     text = message.text
     chatID = message.chat.id
 
-    print(name,"said",text)
+    # print(name,"said",text)
     await bot.delete_message(chatID, message.message_id)
     meme = getMeme(text)
-    print('>Meme', 'URL', meme, '\n')
+    # print('>Meme', 'URL', meme, '\n')
     await types.ChatActions.upload_photo()
     await bot.send_photo(chatID, meme, name)
 

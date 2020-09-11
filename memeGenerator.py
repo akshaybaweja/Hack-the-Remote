@@ -28,11 +28,11 @@ def getMeme(text):
     apiResponse = paralleldots.emotion(text)
     apiResponse = apiResponse["emotion"]
     emotion = max(apiResponse, key=apiResponse.get)
-    print('Emotion:', emotion)
+    # print('Emotion:', emotion)
     
     # Generate a random template based on emotion
     template_id = random.choice(emotions[emotion])
-    print('>Template ID', template_id)
+    # print('>Template ID', template_id)
 
     # Check if the text has only word
     if ' ' in text:
@@ -41,8 +41,8 @@ def getMeme(text):
         text0 = text
         text1 = ''
     
-    print('>Meme', 'Text 0:', text0)
-    print('>Meme', 'Text 1:', text1)
+    # print('>Meme', 'Text 0:', text0)
+    # print('>Meme', 'Text 1:', text1)
 
     # Prepare for Meme Generation 🔥
     querystring = {
