@@ -12,7 +12,7 @@ Parsons School of Design x UC Boulder<br>
 ## Install Required Packages
 
 ~~~
-pip install -U aiogram paralleldots requests
+pip install -r requirements.txt
 ~~~
 
 ## Obtaining credentials
