@@ -19,13 +19,13 @@ async def start(message: types.Message):
     await message.answer("Welcome to Elastic Spaces.\nLet's chat in memes 🙂")
 
 @dp.message_handler(content_types=types.ContentType.PHOTO)
-async def audio_handler(message: types.Message):
+async def image_handler(message: types.Message):
     # Generate image URL
     # file = await bot.get_file(message.photo[-1].file_id)
     # imageUrl = telegramImageURL + file.file_path
 
     # Send image for processing here.
-    print(imageUrl)
+    # print(imageUrl)
     await message.reply('Only I send images 👿')
 
 @dp.message_handler()
